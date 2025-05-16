@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wings Business Consulting</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="check_media.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">
+      <span class="logo-text">WINGS BUSINESS CONSULTING</span>
+      <img src="images/wings_logo.png" alt="WBC Logo" class="logo-img" />
+    </div>
+    <div class="drawer-toggle" id="drawerToggle"> &#9776;</div>
+    <nav class="nav-center">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <div class="side-drawer" id="sideDrawer">
+    <div class="drawer-header">
+      <div class="drawer-title">WINGS BUSINESS CONSULTING</div>
+      <div class="close-btn" id="closeDrawer">&times;</div>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="drawer-address">
+       <p> 3rd Floor, Kanaka Towers, No 113,
+       16th Cross Rd,
+       Dollar Layout, J. P. Nagar phase-4,
+       Bengaluru, Karnataka 560078</p>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <canvas id="birdCanvas"></canvas>
+    <div class="hero-text">
+      <h1>"Empowering Businesses with Strategy, Insight, and Growth."</h1>
+      <p>Expert guidance for businesses ready to scale and succeed.</p>
+      <a href="#services"><button class="btn-primary">Explore Services</button></a>
+    </div>
+    <div class="hero-img">
+      <img class="img" src="images/hero2.png" alt="Business team illustration" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      Founded in 2024 " Wings is a dynamic and forward-thinking organization 
+      dedicated to revolutionizing the landscape of Business Consulting. With a 
+      passion for fostering positive workplace cultures and driving organizational 
+      success, we offer a comprehensive suite of Business solutions tailored to meet the 
+      unique needs of our clients.    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <!-- services detals click button  -->
+
+      <div class="card animated" onclick="showModal('Business Consulting')">
+        <img src="images/business.jpeg" alt="Business Consulting" />
+        <h3>BUSINESS CONSULTING</h3>
+        <p>We help businesses grow
+            From planning to setup, we take care of everything you need.</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('Training')">
+        <img src="images/training2.jpeg" alt="Training" />
+        <h3>TRAINING & DEVELOPMENT</h3>
+        <p>Engaging ground events that connect with your audience.</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('Recruitment')">
+        <img src="images/hr2.jpeg" alt="Recruitment" />
+        <h3>RECRUITMENT</h3>
+        <p>Connecting talent with opportunity, building successful futures</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('Printing Services')">
+        <img src="images/print.jpeg" alt="Printing services" />
+        <h3>PRINTING SERVICES</h3>
+        <p>Impactful visual branding for offline presence.</p>
+      </div>
+
+      
+      <div class="card animated" onclick="showModal('Branding Services')">
+        <img src="images/branding.jpeg" alt="Branding Services" />
+        <h3>BRANDING  SERVICES</h3>
+        <p>Impactful visual branding for offline presence.</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('Hr & Payroll')">
+        <img src="images/hr4.jpeg" alt="Hr & Payroll" />
+        <h3>HR BENEFITS & PAYROLL</h3>
+        <p>Connecting people operations with seamless compensation and care.</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('Corporate Gifting')">
+        <img src="images/cop.jpeg" alt="Corporate Gifting" />
+        <h3>CORPORATE GIFTING</h3>
+        <p>Thoughtful gifts that show you care.
+            Customized for employees, clients, and every special occasion.</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('Digital Marketing')">
+        <img src="images/digital.jpeg" alt="Digital Marketing" />
+        <h3>DIGITAL MARKETING</h3>
+        <p>Grow your brand with SEO, PPC & social campaigns.</p>
+      </div>
+
+      <div class="card animated" onclick="showModal('CRM')">
+        <img src="images/crm.jpeg" alt="CRM Solutions" />
+        <h3>BTL & CRM SERVICES</h3>
+        <p>Optimize communication and lead management.</p>
+      </div>
+
+
+      <div class="card animated" onclick="showModal('web and app development')">
+        <img src="images/web.jpeg" alt="Web & App Development" />
+        <h3>WEBSITE & APP DEVELOPMENT</h3>
+        <p>Responsive platforms tailored to your business goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Highlights -->
+  <section class="projects" id="projects">
+    <h2>Key Projects</h2>
+    <div class="project-grid">
+      <div class="project animated">
+        <h3>Glamzy</h3>
+        <p>Designed and deployed branding assets across 20+ outlets.</p>
+      </div>
+      <div class="project animated">
+        <h3>Dr.Anupama</h3>
+        <p>Built a custom CRM for admissions and parent communication.</p>
+      </div>
+      <div class="project animated">
+        <h3>Real Estate Platform</h3>
+        <p>Developed listing & lead capture tools for Prime Properties.</p>
+      </div>
+    </div>
+  </section>
+
+
+<section id="team" class="team-section">
+  <h2>Meet Our Team</h2>
+  <div class="team-container">
+    <div class="team-member">
+      <img src="images/founder.jpeg" alt="John Doe" />
+      <h3>Manoj Anand</h3>
+      <p>Founder</p>
+    </div>
+    <div class="team-member">
+      <img src="images/co-founder.jpeg" alt="Jane Smith" />
+      <h3>Shifath Ahmed</h3>
+      <p>Co-Founder</p>
+    </div>
+    <div class="team-member">
+      <img src="images/emp22.png" alt="Emily Johnson" />
+      <h3>Saurabh Urs N</h3>
+      <p>Project Manager</p>
+    </div>
+    <div class="team-member">
+      <img src="images/emp11.png" alt="Michael Brown" />
+      <h3>Kouser Banu</h3>
+      <p>Project Co-ordinator</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+
+  <div class="contact-container">
+    
+    <!-- Subsection 1: Google Form -->
+    <div class="contact-form-section">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfn-VZ2PYYzubtaWmPgiUQuXRLt7rHJWR16I_mhUSCtgohhdw/formResponse" method="POST" target="hidden_iframe">
+  
+        <label>
+          Name<br />
+          <input type="text" name="entry.413502025" required />
+        </label>
+
+        <label>
+          Email Address<br />
+          <input type="email" name="entry.816490143" required />
+        </label>
+
+        <label>
+          Phone Number<br />
+          <input type="tel" name="entry.1945529235" pattern="[0-9+ ]{7,}" required />
+        </label>
+
+        <label>
+          Requirement<br />
+          <textarea name="entry.1991246507" rows="4" required></textarea>
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p id="successMessage" style="display:none; color: green; margin-top: 1rem;">
+        Thank you! We will get back to you shortly.
+      </p>
+
+      <p id="loadingMessage" style="display:none; color: #003366; margin-top: 1rem;">
+        Sending...
+      </p>
+
+      <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+
+      <!-- Success message (initially hidden) -->
+      <p id="successMessage" style="display:none; color: green; margin-top: 1rem;">
+        Thank you! We will get back to you shortly.
+      </p>
+      
+      <!-- Loading message (initially hidden) -->
+      <p id="loadingMessage" style="display:none; color: #003366; margin-top: 1rem;">
+        Sending...
+      </p>
+
+      <!-- Hidden iframe to handle form submission -->
+      <iframe name="hidden_iframe" style="display:none;"></iframe>
+    </div>
+
+    <!-- Subsection 2: Address and Contact Info -->
+    <div class="contact-info-section">
+      <h3>Get in Touch</h3>
+      <p><strong>Address:</strong><br />
+        Wings Business Consulting<br />
+        3rd Floor, Kanaka Towers, No 113,<br />
+        16th Cross Rd, Dollar Layout, J. P. Nagar phase-4,<br />
+        Bengaluru, Karnataka 560078
+      </p>
+
+      <p><strong>Email:</strong><br />
+        <a href="mailto:Sales@wingsbc.com">Sales@wingsbc.com</a>
+      </p>
+
+      <p><strong>Support:</strong><br />
+        <a href="mailto:Info.wingsblr@gmail.com">Info.wingsblr@gmail.com</a>
+      </p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/wings_business_consulting?igsh=MWUxdHp4aXlqYjYybA%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/wings-business-consulting/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <a
+    href="https://wa.me/919008722108?text=Hey%20Manoj%2C" 
+    class="whatsapp-float" 
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+  >
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+  </a>
+
+  
+  
+  
+  <footer>
+    <p>&copy; 2025 Wings Business Consulting. All rights reserved.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+<!-- model details  -->
+
+  <div id="serviceModal" class="modal">
+      <div class="modal-content card-style">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-grid">
+          <div class="modal-image">
+            <img src="" alt="Service Image" />
+          </div>
+          <div class="modal-text">
+            <h2 id="modalTitle">Service Title</h2>
+            <p id="modalDescription">Service description goes here.</p>
+            <ul class="features" id="modalFeatures"></ul>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- medel com ponant ends here -->
+
+</body>
+</html>
