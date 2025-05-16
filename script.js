@@ -128,14 +128,16 @@ const serviceDetails = {
   },
 
   "Branding Services": {
-    title: "Printing services",
-    description: `The printing business involves creating
-                  physical copies of documents or other
-                  materials using printing equipment such as
-                  printers, presses, and copiers. The materials
-                  that are printed can include books,
-                  newspapers, brochures, business cards,
-                  packaging, and other promotional materials.`,
+    title: "Branding services",
+    description: `At Wings Business Consulting, we offer comprehensive branding
+    services that help businesses establish a powerful and memorable identity. 
+    From logo design and brand strategy to messaging and visual identity development, 
+    we craft cohesive branding solutions that resonate with your audience. Our goal is 
+    to align your brand’s image with its values, making it stand out in a competitive market. 
+    Whether you're launching a new brand or revitalizing an existing one, we ensure consistency, 
+    creativity, and clarity across every touchpoint.
+
+`,
     image: "images/branding.jpeg"
   },
 
