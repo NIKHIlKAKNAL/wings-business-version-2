@@ -127,6 +127,18 @@ const serviceDetails = {
     image: "images/wb2.jpeg"
   },
 
+  "Branding Services": {
+    title: "Printing services",
+    description: `The printing business involves creating
+                  physical copies of documents or other
+                  materials using printing equipment such as
+                  printers, presses, and copiers. The materials
+                  that are printed can include books,
+                  newspapers, brochures, business cards,
+                  packaging, and other promotional materials.`,
+    image: "images/branding.jpeg"
+  },
+
   "Recruitment": {
     title: "Recruitment",
     description: `At Wings, we offer a streamlined hiring
