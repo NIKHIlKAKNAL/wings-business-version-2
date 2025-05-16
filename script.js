@@ -135,9 +135,7 @@ const serviceDetails = {
     we craft cohesive branding solutions that resonate with your audience. Our goal is 
     to align your brand’s image with its values, making it stand out in a competitive market. 
     Whether you're launching a new brand or revitalizing an existing one, we ensure consistency, 
-    creativity, and clarity across every touchpoint.
-
-`,
+    creativity, and clarity across every touchpoint.`,
     image: "images/branding.jpeg"
   },
 
