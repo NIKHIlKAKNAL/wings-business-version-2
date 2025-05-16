@@ -191,7 +191,7 @@ const serviceDetails = {
                    to make data-driven decisions, increase efficiency, and ultimately 
                    drive growth. Ready to enhance your customer experience and optimize 
                    your workflow? Let’s explore how our CRM solutions can work for you!`,
-    image: "images/CRM.jpeg"
+    image: "images/crm.jpeg"
   },
 
   "Digital Marketing": {
