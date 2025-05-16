@@ -130,12 +130,12 @@ const serviceDetails = {
   "Branding Services": {
     title: "Branding services",
     description: `At Wings Business Consulting, we offer comprehensive branding
-    services that help businesses establish a powerful and memorable identity. 
-    From logo design and brand strategy to messaging and visual identity development, 
-    we craft cohesive branding solutions that resonate with your audience. Our goal is 
-    to align your brand’s image with its values, making it stand out in a competitive market. 
-    Whether you're launching a new brand or revitalizing an existing one, we ensure consistency, 
-    creativity, and clarity across every touchpoint.`,
+                  services that help businesses establish a powerful and memorable identity. 
+                  From logo design and brand strategy to messaging and visual identity development, 
+                  we craft cohesive branding solutions that resonate with your audience. Our goal is 
+                  to align your brand’s image with its values, making it stand out in a competitive market. 
+                  Whether you're launching a new brand or revitalizing an existing one, we ensure consistency, 
+                  creativity, and clarity across every touchpoint.`,
     image: "images/branding.jpeg"
   },
 
@@ -226,7 +226,7 @@ const serviceDetails = {
                 and competencies. Training can be used
                 to help employees perform better in their
                 current role or prepare for future changes`,
-    image: "images/wb2.jpeg"
+    image: "images/training.jpeg"
   },
 
   "Business Consulting": {
