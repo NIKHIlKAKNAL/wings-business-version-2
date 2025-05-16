@@ -226,7 +226,7 @@ const serviceDetails = {
                 and competencies. Training can be used
                 to help employees perform better in their
                 current role or prepare for future changes`,
-    image: "images/training.jpeg"
+    image: "images/training2.jpeg"
   },
 
   "Business Consulting": {
