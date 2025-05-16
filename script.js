@@ -219,13 +219,13 @@ const serviceDetails = {
   "Training": {
     title: "Training & Development",
     description: `Training and development (T&D) are
-                organizational processes that help
-                employees improve their skills,
-                knowledge, and capabilities
-                Focuses on improving job-related skills
-                and competencies. Training can be used
-                to help employees perform better in their
-                current role or prepare for future changes`,
+                  organizational processes that help
+                  employees improve their skills,
+                   knowledge, and capabilities
+                   Focuses on improving job-related skills
+                   and competencies. Training can be used
+                   to help employees perform better in their
+                   current role or prepare for future changes`,
     image: "images/training2.jpeg"
   },
 
@@ -251,18 +251,6 @@ const serviceDetails = {
                   relationships and show appreciation`,
     image: "images/cop.jpeg"
   },
-
-   "Interior Design": {
-    title: "Interior Design",
-    description: `Transform your space into a reflection of your style and 
-                  functionality with our expert interior design services. 
-                  From residential to commercial projects, we specialize in 
-                  creating environments that are both beautiful and practical. 
-                  Let us help you design spaces that inspire, motivate, 
-                  and enhance your lifestyle or business. Ready to redefine your 
-                  space?`,
-    image: "images/inter.jpeg"
-  }
 };
 
 window.showModal = (serviceName) => {
